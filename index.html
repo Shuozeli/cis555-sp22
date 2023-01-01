@@ -1,0 +1,286 @@
+<html><head>
+  <title>CIS 455 / 555: Internet and Web Systems (Spring 2022)</title>
+  <meta http-equiv="content-type" content="text/html;charset=ISO-8859-1">
+
+  <link rel="shortcut icon" href="https://www.cis.upenn.edu/images/favicon.ico" type="image/favicon">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-2"></div>
+      <div class="col-10">
+        <img src="img/pic2.jpg" style="width:18%;max-width:150px;">
+        <img src="img/pic1.jpg" style="width:18%;max-width:150px;">
+        <img src="img/pic3.jpg" style="width:18%;max-width:150px;">
+        <img src="img/pic4.jpg" style="width:18%;max-width:150px;">
+        <img src="img/pic5.jpg" style="width:18%;max-width:150px;">
+      </div>
+    </div>
+    <div class="row top-buffer">
+      <div class="col-2"></div>
+      <div class="col-10">
+      <h3>CIS 455 / 555: Internet and Web Systems (Spring 2022)</h3>
+      </div>
+    </div>
+    <div class="row top-buffer-lg">
+      <div class="col-2">
+        <p class="font-weight-bold text-break">Instructor</p>
+      </div>
+      <div class="col-10">
+      <a href="http://www.cis.upenn.edu/~zives">Zachary Ives</a><br>
+      Location: 305 Levine Hall<br>
+      Office hours: Wed 2:00-3:00 and by appointment (<a href="https://ives.youcanbook.me">ives.youcanbook.me</a> and drop-in Gather.town)
+      </div>
+    </div>
+    <div class="row top-buffer-sm">
+      <div class="col-2">
+        <p class="font-weight-bold text-break">Time and location</p>
+      </div>
+      <div class="col-10">
+      MW 3:30pm&nbsp;–&nbsp;5:00pm<br>
+	<a href="https://upenn.zoom.us/j/91710866002?pwd=YU9QbDJicWdDb3ZITS9PZHpkZUhHQT09">Zoom</a> remote participation link<br>
+      Physical location (Jan 24th+): <a href="https://www.facilities.upenn.edu/maps/locations/david-rittenhouse-laboratory">David Rittenhouse Labs (DRLB) A1</a><br>
+      </div>
+    </div>
+    <div class="row top-buffer-sm">
+      <div class="col-2">
+        <p class="font-weight-bold text-break">Teaching assistants</p>
+      </div>
+      <div class="col-10">
+        Peter Baile Chen, cbaile@seas<br>
+        Sharon Dong, sharondo@seas<br>
+        Ameya Gadkari, ameyaga@seas<br>
+	Matt Lebermann, mleb@seas<br>
+	Matthew Jortberg, jortberg@seas<br>
+        Wesley Yee, wesyee@seas<br>
+	Haoran Zhang, haorz@seas<br>
+        Karen Zheng, karenzxy@seas<br>
+      </div>
+    </div>
+    <div class="row top-buffer-sm">
+      <div class="col-2">
+        <p class="font-weight-bold text-break">Course description</p>
+      </div>
+      <div class="col-10">
+      <p>This course focuses on the issues encountered in building Internet and web systems: scalability, interoperability (of data and code), atomicity and consistency models, replication, and location of resources, services, and data.  Note that "Internet" in this context refers to the ecosystem of applications that you can use to access and share information across the world.  For details on the system that underpins these applications, see <a href="https://www.cis.upenn.edu/~cis553/">CIS&nbsp;553</a>).</p>
+      
+      <p>On a similar note, this course is <i>not</i> about building database-backed or PHP/JSP/Node-based web sites (for this, see <a href="http://www.cis.upenn.edu/~cis550/">CIS&nbsp;450/550</a> or <a href="http://www.cis.upenn.edu/~nets212/">NETS&nbsp;212</a>) or about the use of "big data analytics" platforms like MapReduce, Apache Storm, Spark, etc (for that, see <a href="http://www.cis.upenn.edu/~cis545">CIS 545</a>).  While this course touches on the above topics, here we will learn how these systems are actually built!</p>
+      
+      <p>We will examine how XML standards enable information exchange; how web services support cross-platform interoperability (and what their limitations are); how "cloud computing" services work; how to do replication and Akamai-like content distribution; and how application servers provide transaction support in distributed environments. We will study techniques for locating machines, resources, and data (including directory systems, information retrieval indexing and ranking, web search, and publish/subscribe systems); we will discuss collaborative filtering and mining the Web for patterns; we will investigate how different architectures support scalability and distributed coordination (and the issues they face). We will also examine the ideas that  have been proposed for tomorrow's Web, and see some of the challenges, research directions, and potential pitfalls.</p>
+      <p>
+      An important goal of the course is not simply to discuss issues and solutions, but to provide hands-on experience with a substantial implementation project. This final project will be an implementation of a Google-style search engine, including distributed, scalable crawling; indexing with ranking; stream processing; and even PageRank on your own MapReduce-style platform!</p>
+      <p>
+      As a side effect of the material of this course, you will learn about some aspects of large-scale software development: assimilating large APIs, thinking about modularity, reading other people's code, managing versions, debugging, and so on.</p>
+      <p>
+      CIS555 is now a core course for the <a href="http://www.cis.upenn.edu/current-students/graduate/mse/">MSE degree</a> as well as an option for the <a href="http://www.cis.upenn.edu/current-students/graduate/phd/wpe-regs.php">WPE I requirement</a> for PhDs. The Daily Pennsylvanian published a nice <a href="http://www.thedp.com/article/2012/11/company-sponsored-computer-science-courses-offer-students-new-way-to-learn">article about CIS455/555</a>.</p>
+      </div>
+    </div>
+    <div class="row top-buffer-sm">
+      <div class="col-2">
+        <p class="font-weight-bold text-break">Format</p>
+      </div>
+      <div class="col-10">
+      The format will be two lectures per week plus assigned readings.
+      There will be regular homework assignments and a
+      substantial implementation project with experimental validation
+      and a report. There will also be two in-class midterms.
+      </div>
+    </div>
+    <div class="row top-buffer-sm">
+      <div class="col-2">
+        <p class="font-weight-bold text-break">Links</p>
+      </div>
+      <div class="col-10">
+	<ul class="dashed">
+	<li> <i><a href="http://www.piazza.com/">Piazza</a></i> for course-related discussions; please sign up <a href="https://piazza.com/class/ky8s53l7b7i3j4">here</a>.</li>
+        <li> <i><a href="https://canvas.upenn.edu/courses/1636886">Canvas</a></i> for access to videos and self-check quizzes.</li>
+        <li> <a href="https://www.gradescope.com/courses/343865">Gradescope</a> for homework submission, grading, and exams.  You will automatically be added once you are in Canvas.</li>
+        <li> <a href="https://gather.town/aQMGI0l1R8DP0Ovv/penn-cis">Gather.town</a>, Zoom, and <i><a href="https://ohq.io/courses/343">OHQ</a></i> for getting help during TA office hours.</li>
+	<li> <i><a href="assignments.html">Assignments list</a></i> for assignment handouts.</li>
+	</ul>
+      </div>
+    </div>
+    <div class="row top-buffer-sm">
+      <div class="col-2">
+        <p class="font-weight-bold text-break">Prerequisites</p>
+      </div>
+      <div class="col-10">
+      This course expects familiarity with threads and concurrency, as well as strong Java programming skills. Those highly proficient in another programming language, such as C++ or C#, should be able to translate their skills easily. The course will require a considerable amount of programming, as well as the ability to work with your classmates in teams.
+      </div>
+    </div>
+    <div class="row top-buffer-sm">
+      <div class="col-2">
+        <p class="font-weight-bold text-break">Texts and readings</p>
+      </div>
+      <div class="col-10">
+      <a href="https://www.amazon.com/Distributed-Systems-Maarten-van-Steen/dp/1543057381">Distributed Systems: Principles and Paradigms, 3rd edition</a>, by Tanenbaum and van Steen, Prentice Hall (ISBN 978-1530281756).<br>
+      You can buy a physical copy (e.g., for $35 on Amazon) or download a free digital copy <a href="https://www.distributed-systems.net/index.php/books/ds3/">here</a>.<br>
+      <br>
+      Additional materials will be provided as handouts or in the form of light technical papers. A <a href="reading.html">reading list</a> is available.
+      </div>
+    </div>
+    <div class="row top-buffer-sm">
+      <div class="col-2">
+        <p class="font-weight-bold text-break">Assignments</p>
+      </div>
+      <div class="col-10">
+      The homework assignments will be available 
+      <a href="assignments.html">here</a>. You can submit directly in Gradescope.
+      </div>
+    </div>
+    <div class="row top-buffer-sm">
+      <div class="col-2">
+        <p class="font-weight-bold text-break">Grading</p>
+      </div>
+      <div class="col-10">
+      Homework 32%, first midterm 15%, second midterm 15%, project 33%, participation 5%.
+      </div>
+    </div>    
+    <div class="row top-buffer-sm">
+      <div class="col-2">
+        <p class="font-weight-bold text-break">Final project</p>
+      </div>
+      <div class="col-10">
+        Wondering what you will be able to do at the end of this class? Here is an example from Spring 2017:
+
+        <div class="row">
+          <div class="col-md-8 text-center">
+            <a href="img/award-2017/team.jpg"><img class="img-fluid" src="img/award-2017/team.jpg" style="width:100%;" title="From left to right: Hung, Hitali, Chirag, and Harsh"></a>
+            Hung, Hitali, Chirag, and Harsh
+          </div>
+          <div class="col-md-4 text-center">
+            <a href="img/award-2017/screenshot-1.png"><img class="img-fluid" style="width:100%;" src="img/award-2017/screenshot-1.png"></a><br>
+            Example results from PennCH3
+            <div class="vin-align-bottom">
+            <a href="img/award-2017/screenshot-2.jpg"><img class="img-fluid" style="width:100%;" src="img/award-2017/screenshot-2.jpg"></a>
+            Searching with Alexa
+            </div>
+          </div>
+        </div>
+
+        The 2017 Google Award for the best final project went to <b>Hung Nguyen, Chirag Shah, Hitali Sheth, and Harsh Verma</b> for their "PennCH3" search engine. PennCH3 not only searches the web but also displays information from a variety of sources, including soccer scores, stock quotes, weather forecasts, and shopping results. Users can also submit searches using their Alexa-enabled devices. Under the hood, the system is highly scalable and uses replication for fault tolerance; the team (boldly) proved this by killing some of the nodes during a live demonstration. <a href="http://www.google.com/">Google</a> generously donated four Google Home devices as a prize, and each member of the PennCH3 team received one of the devices.<br>
+        <br>
+        A honorable mention went to project "Q+A" (Mani Mahesh, Archith Shivanagere, Rishisingh Solanki, and Sanidhya Tiwari), whose solution featured location-specific results and used reinforcement learning to improve the results based on feedback from the users.<br>
+        <br>
+        You can read more about previous Google Award winners and their projects in the <a href="hall-of-fame.html">CIS455/555 Hall of Fame</a>.
+      </div>
+    </div>
+    <div class="row top-buffer-sm">
+      <div class="col-2">
+        <p class="font-weight-bold text-break">Schedule</p>
+      </div>
+      <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ8rVGULu_2NtLSMFLkR8dI-XcTyuoz5yyIV7g5j2DRBy1GZMEeeHarnpSxwFgY6V6O20mB6-Vwp_w5/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" height="2900px" width="100%"></iframe>
+    </div>
+  </div>
+
+<style>
+span.due {color:#95001a;font-weight:bold;}
+.tentative span.due {color:#dfb2ba;font-weight:bold;}
+.tentative {color:#a0a0a0;}
+.top-buffer-lg {margin-top:15px;}
+.top-buffer-sm {margin-top:20px;}
+
+@media (min-width: 768px) {
+.vin-align-bottom {position:absolute;bottom:0;right:0;}
+}
+
+ul.dashed {
+  list-style-type:none;
+  margin-left: 0;
+  padding-left: 1em;
+}
+ul.dashed > li:before {
+  display: inline-block;
+  content: "-";
+  width: 1em;
+  margin-left: -1em;
+}
+
+.bs-callout {
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #eee;
+    border-left-width: 5px;
+    border-radius: 3px;
+}
+.bs-callout h4 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.bs-callout p:last-child {
+    margin-bottom: 0;
+}
+.bs-callout code {
+    border-radius: 3px;
+}
+.bs-callout+.bs-callout {
+    margin-top: -5px;
+}
+.bs-callout-default {
+    border-left-color: #777;
+}
+.bs-callout-default h4 {
+    color: #777;
+}
+.bs-callout-primary {
+    border-left-color: #428bca;
+}
+.bs-callout-primary h4 {
+    color: #428bca;
+}
+.bs-callout-success {
+    border-left-color: #5cb85c;
+}
+.bs-callout-success h4 {
+    color: #5cb85c;
+}
+.bs-callout-danger {
+    border-left-color: #d9534f;
+}
+.bs-callout-danger h4 {
+    color: #d9534f;
+}
+.bs-callout-warning {
+    border-left-color: #f0ad4e;
+}
+.bs-callout-warning h4 {
+    color: #f0ad4e;
+}
+.bs-callout-info {
+    border-left-color: #5bc0de;
+}
+.bs-callout-info h4 {
+    color: #5bc0de;
+}
+
+</style>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript">
+  function setTentative() {
+    var now = new Date().getTime();
+    var rows = document.getElementsByName("schedule")[0].rows;
+
+    var i;
+    for (i = 0; i < rows.length; i++) {
+      if (rows[i].id != "") {
+        var rowDate = new Date(rows[i].id).getTime();
+	if (rowDate < now) {
+          arr = rows[i].className.split(" ");
+          if (arr.indexOf("tentative") == -1) {
+            rows[i].className += " tentative";
+          }
+        }
+      }
+    }
+  }
+
+  setTentative();
+  // Update the count down every minute
+  setInterval(setTentative, 60000);
+</script>
+
+  
+
+</body></html>
